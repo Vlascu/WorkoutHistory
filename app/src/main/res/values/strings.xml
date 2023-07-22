@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">WorkoutHistory</string>
+    <string name="title_activity_register">Register</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="register_username">Username</string>
+    <string name="register_bodyweight">Your bodyweight (Kg)</string>
+    <string name="register_heigth">Your height (cm)</string>
+    <string name="register_age">Your age</string>
+    <string name="register_button">Register</string>
+    <string name="register_already_user">Already an user?</string>
+    <string name="register_login_button">Login</string>
+    <string name="register_avatar">Avatar</string>
+    <string name="login_username">Username</string>
+    <string name="login_button">Login</string>
+    <string name="login_no_account">Don\'t have an account?</string>
+    <string name="login_register_button">Register</string>
+    <string name="main_menu_info">User Info</string>
+    <string name="main_menu_delete">Delete Account</string>
+    <string name="main_menu_logout">Log Out</string>
+    <string name="main_menu_appearance">Appearance</string>
+    <string name="profile_info_username">Username</string>
+    <string name="profile_info_weight">10 KG</string>
+    <string name="profile_info_age">Age</string>
+    <string name="profile_info_height">Height</string>
+    <string name="profile_info_edit">Edit Info</string>
+    <string name="profile_info_bmi">Calculate BMI</string>
+    <string name="chest">Chest</string>
+    <string name="back">Back</string>
+    <string name="shoulders">Shoulders</string>
+    <string name="biceps">Biceps</string>
+    <string name="triceps">Triceps</string>
+    <string name="legs">Legs</string>
+    <string name="add_logs">Add Logs</string>
+    <string name="hello">Hello</string>
+    <string name="username">Username: </string>
+    <string name="bodyweight">Bodyweight: </string>
+    <string name="age">Age: </string>
+    <string name="height">Height: </string>
+    <string name="insert_log_model">Insert a set at a time</string>
+
+
+</resources>

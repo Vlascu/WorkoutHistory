@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.PopupOverlay" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <!-- Customize the background color to white -->
+        <item name="android:background">@android:color/white</item>
+
+        <!-- Customize the text color to black -->
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+</resources>

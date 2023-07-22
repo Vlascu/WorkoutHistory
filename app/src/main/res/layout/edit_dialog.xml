@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edit_username"
+        android:importantForAutofill="no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="67dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:hint="@string/register_username"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_bodyweight"
+        android:importantForAutofill="no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="@string/register_bodyweight"
+        app:layout_constraintStart_toStartOf="@+id/edit_username"
+        app:layout_constraintTop_toBottomOf="@+id/edit_username" />
+
+    <EditText
+        android:id="@+id/edit_height"
+        android:importantForAutofill="no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="@string/register_heigth"
+        app:layout_constraintStart_toStartOf="@+id/edit_bodyweight"
+        app:layout_constraintTop_toBottomOf="@+id/edit_bodyweight" />
+
+    <EditText
+        android:id="@+id/edit_age"
+        android:importantForAutofill="no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:textColor="@color/black"
+        android:layout_marginEnd="1dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/register_age"
+        app:layout_constraintEnd_toEndOf="@+id/edit_height"
+        app:layout_constraintTop_toBottomOf="@+id/edit_height" />
+</androidx.constraintlayout.widget.ConstraintLayout>
