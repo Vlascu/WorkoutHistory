@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/workout_history_minmap"
-        android:label="Workout&#10;History"
+        android:label="Workout&#xA;History"
         android:supportsRtl="true"
         android:theme="@style/Theme.WorkoutHistory"
         tools:targetApi="33">
         <activity
+            android:name=".activities.Register"
+            android:exported="false" />
+        <activity
             android:name=".activities.Exercises"
-            android:exported="false" android:parentActivityName=".activities.MainActivity"/>
+            android:exported="false"
+            android:parentActivityName=".activities.MainActivity" />
         <activity
             android:name=".activities.ProfileInfo"
             android:exported="false"
-            android:parentActivityName=".activities.MainActivity"/>
+            android:parentActivityName=".activities.MainActivity" />
         <activity
             android:name=".activities.Login"
             android:exported="false" />
@@ -26,9 +32,10 @@
             android:exported="false" />
         <activity
             android:name=".activities.ExerciseLogs"
-            android:exported="false" android:parentActivityName=".activities.Exercises"/>
+            android:exported="false"
+            android:parentActivityName=".activities.Exercises" />
         <activity
-            android:name=".activities.Register"
+            android:name=".activities.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

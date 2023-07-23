@@ -96,4 +96,8 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
     }
 
+    //Todo: fix date not showing on physical phone
+    //Todo: fix dialogs being black and not white
+    //Todo: make appearance work
+    //Todo: check code and all the app again
 }
