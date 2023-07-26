@@ -86,6 +86,7 @@ public class LogDialog extends AppCompatDialogFragment {
                             Date currentDate = new Date();
                             SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
                             final_log= dateFormat.format(currentDate);
+                            final_log = final_log.replaceFirst("^null","");
                             final_log+="|";
 
                             insertSet();
