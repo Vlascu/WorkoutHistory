@@ -92,7 +92,7 @@ public class Exercises extends AppCompatActivity {
         absExercises.add(new CardViewModel("Crunches", R.drawable.crunches));
 
         legExercises = new ArrayList<>();
-        legExercises.add(new CardViewModel("Squat", R.drawable.bb_squat));
+        legExercises.add(new CardViewModel("BB Squat", R.drawable.bb_squat));
 
     }
 

@@ -47,7 +47,7 @@
             android:layout_marginTop="15dp"
             android:text="DB incline bench press"
             android:textColor="@color/black"
-            android:textSize="24sp" />
+            android:textSize="20sp" />
 
     </RelativeLayout>
 
