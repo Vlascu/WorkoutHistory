@@ -17,10 +17,4 @@
         android:id="@+id/main_menu_logout_id"
         app:showAsAction="never"
         />
-    <item
-        android:title="@string/main_menu_appearance"
-        android:id="@+id/main_menu_appearance_id"
-        app:showAsAction="never"
-        />
-
 </menu>
