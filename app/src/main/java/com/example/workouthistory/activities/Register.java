@@ -51,6 +51,7 @@ public class Register extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Register.this,Login.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -87,6 +88,7 @@ public class Register extends AppCompatActivity {
                         saveUsername(username);
                         Intent intent = new Intent(Register.this,MainActivity.class);
                         startActivity(intent);
+                        finish();
                     }
                     else
                         Toast.makeText(Register.this, "Username taken, insert another username!", Toast.LENGTH_LONG).show();
